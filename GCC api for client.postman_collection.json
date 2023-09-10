@@ -1,0 +1,191 @@
+{
+	"info": {
+		"_postman_id": "36409421-eaee-4cd2-829b-35cf3c16e6b2",
+		"name": "GCC api for client",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26905078",
+		"_collection_link": "https://orange-shuttle-718263.postman.co/workspace/GCC~5530bf31-1196-42ab-9475-278fd9df5bfa/collection/26905078-36409421-eaee-4cd2-829b-35cf3c16e6b2?action=share&source=collection_link&creator=26905078"
+	},
+	"item": [
+		{
+			"name": "getAccessToken",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"admin@gcc.com\",\n    \"password\":\"[@45*^Ab]\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/NEW_GCC/public/api/getAccessToken",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"NEW_GCC",
+						"public",
+						"api",
+						"getAccessToken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin_country",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"for\":\"country_list\",\n    \"access_token\":\"xDhiYeCP5JUM4PWGaHqCb4yKVeAZY30TIDk3GtY\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/NEW_GCC/public/api/admin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"NEW_GCC",
+						"public",
+						"api",
+						"admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin_capital_city_list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"for\":\"capital_city_list\",\n    \"access_token\":\"xDhiYeCP5JUM4PWGaHqCb4yKVeAZY30TIDk3GtY\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/NEW_GCC/public/api/admin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"NEW_GCC",
+						"public",
+						"api",
+						"admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "city_with_country",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"for\":\"city_with_country\",\n    \"access_token\":\"xDhiYeCP5JUM4PWGaHqCb4yKVeAZY30TIDk3GtY\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/NEW_GCC/public/api/admin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"NEW_GCC",
+						"public",
+						"api",
+						"admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin_get_all_city",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"for\":\"get_all_city\",\n    \"access_token\":\"xDhiYeCP5JUM4PWGaHqCb4yKVeAZY30TIDk3GtY\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/NEW_GCC/public/api/admin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"NEW_GCC",
+						"public",
+						"api",
+						"admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "all_group_data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"for\":\"all_group_data\",\n    \"access_token\":\"xDhiYeCP5JUM4PWGaHqCb4yKVeAZY30TIDk3GtY\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/NEW_GCC/public/api/admin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"NEW_GCC",
+						"public",
+						"api",
+						"admin"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
